@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beranda</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/
+    css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://2.bp.blogspot.com/-9RBSDbhBi-w/Wbyks_NFPcI/AAAAAAAADDA/OPBx_IILLF0I_Y8moVethnY76UVD5rgFACLcBGAs/s1600/ML-logo_justnamedanton.png"alt="Mobile Game Stasion" style="width:40px;" class="rounded-pill"> 
+      </a>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        login
+      </button>
+      
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Acount</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+              </form>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <h3 class="text-center">
+    Hero Yang Sedang 
+    <small class="text-body-secondary">Meta</small>
+  </h3>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://1.bp.blogspot.com/-HG8UuwLHmNQ/Xt7L1vvfArI/AAAAAAAADBA/VgmN9lnVF7wqRjIwFKLLyMDb7JEBShi7ACLcBGAsYHQ/s1600/Wallpaper-Lancelot-Floral-Knight-Skin-Mobile-Legends-HD-for-PC-Hobigame.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://2.bp.blogspot.com/-MNw2OwPAAJs/Xg7FlCKZXpI/AAAAAAAAFzs/GjvW0spOZx0b8OI4Yk_44riZsj9L7QgrwCK4BGAYYCw/s1600/3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://1.bp.blogspot.com/-4VM-Pjpc3kU/YT2kVQlSliI/AAAAAAAABQI/fZljn6QEQAwvmZmY84JAI3-fbPVxn3BLQCLcBGAsYHQ/s1920/alpha-revamped-mobile-legends-wallpaper-hd.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h1 class="text-center">Table</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Tentang Kami</th>
+        <th scope="col">Contact</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>@Istagram</td>
+        <td>@rizki_prtama17</td>
+        <td>Wafi</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>@whatsApp</td>
+        <td>0821********</td>
+        <td>Nabil.K</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2"></td>
+        <td>Maharisski</td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
